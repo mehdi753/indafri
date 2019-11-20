@@ -1,0 +1,317 @@
+.about .banner .img {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 290px), url('../../assets/images/propbanner4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
+
+.about .banner .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.about .banner .img h1 {
+    margin-top: 2%;
+    color: #fff;
+    font: 3.73rem 'Open Sans Bold', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+}
+
+.about .banner .desc {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    z-index: 2;
+}
+
+.about .banner .desc h3 {
+    width: 500px;
+    margin: 10% 0 0 2%;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-align: justify;
+    overflow-wrap: break-word
+}
+
+.about .content {
+    overflow: hidden;
+    width: 100%;
+}
+
+.square {
+    border-radius: 10px;
+    transform: translate3d(0, 0, 0) rotate(45deg);
+    z-index: 0;
+}
+
+.c1 {
+    position: absolute;
+    bottom: -1%;
+    right: 15%;
+    background: linear-gradient(to bottom right, #ff33cc 0%, #cc00ff 101%);
+    width: 100px;
+    height: 100px;
+}
+
+.c2 {
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    background: linear-gradient(to top, #00ff99 0%, #ff99cc 101%);
+    width: 150px;
+    height: 150px;
+    z-index: -2;
+}
+
+.c3 {
+    position: absolute;
+    top: 130%;
+    right: 30%;
+    background: #00ff99;
+    width: 50px;
+    height: 50px;
+}
+
+.c4 {
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    background: #ff99cc;
+    width: 50px;
+    height: 50px;
+}
+
+.c5 {
+    position: absolute;
+    top: 170%;
+    right: 30%;
+    background: linear-gradient(to bottom, #66ff66 0%, #ffff00 101%);
+    width: 80px;
+    height: 80px;
+}
+
+.c6 {
+    position: absolute;
+    top: 200%;
+    left: 15%;
+    background: #ffff00;
+    width: 50px;
+    height: 50px;
+}
+
+.about .content .quote {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.about .content .quote h2 {
+    width: 40%;
+    margin: 0 0 0 22%;
+    color: #666;
+}
+
+.about .content .title {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.about .content .title h1 {
+    width: 60%;
+    color: RGBA(0, 0, 0, 0.2);
+    margin: 0 0 0 30%;
+    font-size: 8rem;
+    font-weight: 800;
+    z-index: -10;
+}
+
+.about .content .desc {
+    width: 45%;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #666;
+}
+
+.about .content .desc1 {
+    margin: 20% 0 0 10%;
+}
+
+.about .content .desc2 {
+    margin: 5% 0 0 50%;
+}
+
+.about .content .desc3 {
+    margin: 5% 0 0 20%;
+}
+
+.about .content .list {
+    width: 90%;
+    margin: 10% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .about .content .list {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.about .content .lst {
+    text-align: justify;
+    width: 450px;
+    margin: 30px 0;
+}
+
+.about .content .list h2 {
+    color: #ff99cc;
+}
+
+.about .content .list h3 {
+    margin-top: 10px;
+    color: #666;
+}
+
+.about .content .insc {
+    width: 100%;
+    position: relative;
+    top: -180px;
+    text-align: center;
+}
+
+.about .content .insc h1 {
+    font-size: 3rem;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.about .content .insc span {
+    font-size: 2rem;
+    text-align: center;
+    margin: 50px 0 0 0;
+    width: 100%;
+    border: 1px solid #f5245d;
+    background: #f5245d;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.about .content .insc span:hover {
+    border: 1px solid #ce1d4c;
+    background: #ce1d4c;
+}
+
+@media(max-width:960px) {
+    .about .banner .desc h1 {
+        font-size: 3rem;
+    }
+    .about .banner .desc h3 {
+        font-size: 1rem;
+        width: 250px;
+        margin-left: 10px;
+    }
+    .square {
+        border-radius: 5px;
+    }
+    .c1 {
+        width: 50px;
+        height: 50px;
+    }
+    .c2 {
+        width: 75px;
+        height: 75px;
+    }
+    .c3 {
+        width: 25px;
+        height: 25px;
+    }
+    .c4 {
+        width: 25px;
+        height: 25px;
+    }
+    .c5 {
+        width: 40px;
+        height: 40px;
+    }
+    .c6 {
+        width: 25px;
+        height: 25px;
+    }
+    .about .content .quote h2 {
+        font-size: 1rem;
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 100px;
+    }
+    .about .content .title h1 {
+        width: 80%;
+        margin: 0 0 0 20%;
+        font-size: 4rem;
+    }
+    .about .content .desc {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+    .about .content .desc1 {
+        margin-left: 5%;
+    }
+    .about .content .desc2 {
+        margin-left: 20%;
+    }
+    .about .content .desc3 {
+        margin-left: 10%;
+    }
+    .about .content .insc h1 {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    .about .content .insc span {
+        font-size: 1rem;
+        padding: 5px 15px;
+        border-radius: 15px;
+    }
+    .about .content .lst {
+        width: 300px;
+        margin: 15px 0;
+    }
+    .about .content .list h3 {
+        margin-top: 5px;
+    }
+}
+
+@media(min-height:900px) {
+    .c1 {
+        bottom: 20%;
+    }
+    .c2 {
+        top: 90%;
+    }
+    .c3 {
+        top: 100%;
+    }
+    .c4 {
+        top: 120%;
+    }
+    .c5 {
+        top: 140%;
+    }
+    .c6 {
+        top: 170%;
+    }
+}

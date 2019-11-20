@@ -1,0 +1,25 @@
+<app-navbar *ngIf="router.url != '/dashboard'"></app-navbar>
+
+<div class="language-switcher" *ngIf="router.url != '/dashboard'">
+    <ul>
+        <li *ngFor="let language of languageList">
+            <a href="/{{language.code}}/">
+        {{language.label}}
+      </a>
+        </li>
+    </ul>
+    <div>
+        <mat-icon matSuffix>
+            <!--keyboard_arrow_right-->public</mat-icon>
+    </div>
+</div>
+
+<a [ngClass]="{'show-scroll': showScroll}" (click)="scrollToTop()" class="scroll-to-top" *ngIf="router.url != '/dashboard'">
+    <fa-icon [icon]="['fas','chevron-up']" size="2x" id="upicon"></fa-icon>
+</a>
+
+<div class="container" id="container" class="hide-on-init" animateOnScroll animationName="animated fadeIn">
+    <router-outlet></router-outlet>
+</div>
+
+<app-footer *ngIf="router.url != '/dashboard'"></app-footer>

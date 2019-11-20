@@ -1,0 +1,95 @@
+<div class="contact" dir="auto">
+    <div class="banner hide-on-init" animateOnScroll animationName="animated fadeIn">
+        <div class="img">
+            <div class="layer"></div>
+            <div class="desc">
+                <h1 class="hide-on-init" animateOnScroll animationName="animated fadeInDown" i18n="@@contitle">
+                    Prenez Contact</h1>
+                <h3 class="hide-on-init" animateOnScroll animationName="animated fadeInDown" i18n="@@condesc">
+                    Voulez-vous prendre contact? Nous aimerions avoir de vos nouvelles, voici comment vous pouvez nous joindre..
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="form hide-on-init" animateOnScroll animationName="animated fadeInLeft">
+            <h1 i18n="@@git">Contactez-Nous</h1>
+            <form class="cont-container" [formGroup]="contControl" autocomplete="off">
+                <mat-form-field class="field">
+                    <input matInput placeholder="Nom" maxlength="15" formControlName="nomFormControl" i18n-placeholder="@@name">
+                    <mat-error i18n="@@alrt1" *ngIf="hasError('nomFormControl','required')">
+                        Ce champ est <strong>requis</strong>
+                    </mat-error>
+                    <mat-error i18n="@@alrt3" *ngIf="hasError('nomFormControl','pattern')">
+                        Nom est <strong>invalide</strong>
+                    </mat-error>
+                    <mat-icon matSuffix>person</mat-icon>
+                </mat-form-field>
+                <mat-form-field class="field">
+                    <input matInput i18n-placeholder='@@email' placeholder="Email" formControlName="emailFormControl" [errorStateMatcher]="matcher">
+                    <mat-error i18n="@@alrt2" *ngIf="hasError('emailFormControl','email') && !hasError('emailFormControl','required')">
+                        S'il vous plaît, mettez une adresse email valide
+                    </mat-error>
+                    <mat-error i18n="@@alrt1" *ngIf="hasError('emailFormControl','required')">
+                        Ce Champs est <strong>requit</strong>
+                    </mat-error>
+                    <mat-icon matSuffix>mail</mat-icon>
+                </mat-form-field>
+                <mat-form-field class="field">
+                    <input matInput placeholder="Télèphone" maxlength="15" formControlName="telFormControl" i18n-placeholder="@@tlf">
+                    <mat-icon matSuffix>phone</mat-icon>
+                    <mat-error i18n="@@alrt1" *ngIf="hasError('telFormControl','required')">
+                        Ce champ est <strong>requis</strong>
+                    </mat-error>
+                    <mat-error i18n="@@alrt5" *ngIf="hasError('telFormControl','pattern')">
+                        Numero est <strong>invalide</strong>
+                    </mat-error>
+                </mat-form-field>
+                <mat-form-field class="field">
+                    <textarea matInput class="feedback" placeholder="Message" i18n-placeholder="@@msg" formControlName="msgFormControl"></textarea>
+                    <mat-icon matSuffix>comment</mat-icon>
+                    <mat-error i18n="@@alrt6" *ngIf="hasError('msgFormControl','minLength') && !hasError('msgFormControl','required')">
+                        Le minimum est de 10 mots
+                    </mat-error>
+                    <mat-error i18n="@@alrt1" *ngIf="hasError('msgFormControl','required')">
+                        Ce Champs est <strong>requit</strong>
+                    </mat-error>
+                </mat-form-field>
+                <mat-dialog-actions class="fields">
+                    <button mat-flat-button class="contsendbtn" color="primary" (click)="onSubmitSend()" i18n="@@snd">Envoyer</button>
+                </mat-dialog-actions>
+            </form>
+        </div>
+        <div class="location hide-on-init" animateOnScroll animationName="animated fadeInRight">
+            <div class="map">
+                <agm-map [latitude]="lat1" [longitude]="lng1">
+                    <agm-marker [latitude]="lat1" [longitude]="lng1"></agm-marker>
+                </agm-map>
+            </div>
+            <div class="loc">
+                <div class="loc1">
+                    <h1><span class="indafri">INDAFRI</span><span i18n="@@tn"> Tunisie</span></h1>
+                    <h2 i18n="@@adr">Address</h2>
+                    <p>Avenue 14 Janvier, Imm Les Trois Dauphins. Sousse -<span i18n="@@tn"> Tunisie</span></p>
+                    <h2 i18n="@@tlf">Téléphone</h2>
+                    <p>+216 73 277 300</p>
+                    <h2>Fax</h2>
+                    <p>+216 73 277 301</p>
+                    <h2 i18n='@@email'>Email</h2>
+                    <p>info@indafri.com</p>
+                </div>
+                <div class="loc2">
+                    <h1><span class="indafri">INDAFRI</span> GmbH</h1>
+                    <h2 i18n="@@adr">Address</h2>
+                    <p>Düsseldorf Königsallee 106, 40215 Düsseldorf, Allemagne</p>
+                    <h2 i18n="@@tlf">Téléphone</h2>
+                    <p>+49(0)211-3013-2180</p>
+                    <h2>Fax</h2>
+                    <p>+49(0)211-3013-2200</p>
+                    <h2 i18n='@@email'>Email</h2>
+                    <p>contact@indafri.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

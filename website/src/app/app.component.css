@@ -1,0 +1,104 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: -100px;
+    transition: all .4s ease-in-out;
+    border: 1px solid rgba(8, 193, 218, 1);
+    border-radius: 10px;
+    padding: 5px;
+    z-index: 2;
+}
+
+#upicon {
+    color: rgba(8, 193, 218, 1);
+}
+
+.show-scroll {
+    opacity: 1;
+    right: 15px;
+    transition: all .7s ease-in-out;
+}
+
+mat-sidenav-container,
+mat-sidenav-content,
+mat-sidenav {
+    height: 100%;
+}
+
+mat-sidenav {
+    width: 250px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#modal-container {
+    position: fixed;
+    top: 300px;
+    left: 50%;
+    width: 375px;
+    background: white;
+    margin-left: -187.5px;
+    text-align: center;
+    box-shadow: 0px 0px 2px 1px black;
+    z-index: 100;
+}
+
+#overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.language-switcher {
+    border-radius: 0 10px 10px 0;
+    width: 100px;
+    position: fixed;
+    top: 100px;
+    left: -75px;
+    background-color: rgba(206, 21, 206, 0.7);
+    z-index: 2;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .language-switcher {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.language-switcher div {
+    color: #fff;
+    font-weight: bold;
+    padding: 25px 0 0 2px;
+}
+
+.language-switcher ul li {
+    padding: 5px;
+}
+
+.language-switcher ul a {
+    color: #fff;
+}
+
+.language-switcher:hover {
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+}

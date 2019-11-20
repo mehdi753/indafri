@@ -1,0 +1,147 @@
+.contact {
+    overflow-x: hidden;
+}
+
+.contact .banner .img {
+    background-image: url('../../assets/images/contbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.contact .banner .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.contact .banner .img h1 {
+    margin-top: 2%;
+    color: #fff;
+    font: 3.73rem 'Open Sans Bold', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+}
+
+.contact .banner .desc {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    width: 100%;
+}
+
+.contact .banner .desc h3 {
+    margin: 5% 5%;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-align: justify;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.contact .content {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .contact .content {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.contact .content .form h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact .content .form,
+.contact .content .location {
+    width: 500px;
+}
+
+.contact .content .form .cont-container {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.contact .content .form .cont-container .field {
+    margin: 20px 0;
+}
+
+.contact .content .form .cont-container .contsendbtn {
+    width: 100%;
+}
+
+.contact .content .location .map agm-map {
+    height: 250px;
+    position: relative;
+    top: 10px;
+}
+
+.contact .content .location .loc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .content .location .loc .loc1,
+.contact .content .location .loc .loc2 {
+    width: 40%;
+    margin: 10% 5%;
+}
+
+.contact .content .location .loc h1 {
+    font-size: 1.5em;
+}
+
+.contact .content .location .loc h2 {
+    font-size: 1.3em;
+    margin: 5px 5px;
+    color: #555;
+}
+
+.contact .content .location .loc p {
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.contact .feedback::-webkit-scrollbar {
+    display: none
+}
+
+@media(max-width:700px) {
+    .contact .banner .img h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:500px) {
+    .contact .content .form,
+    .contact .content .location {
+        width: 90%;
+    }
+    .contact .content .location .loc .loc1,
+    .contact .content .location .loc .loc2 {
+        width: 90%;
+        margin: 5% 5%;
+    }
+    .contact .content .form h1 {
+        font-size: 2em;
+    }
+}

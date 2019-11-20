@@ -1,0 +1,172 @@
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer .credits {
+    height: 20%;
+}
+
+.footer .bfooter {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    justify-content: space-evenly;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .footer .bfooter {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.footer .logo .lg {
+    margin: 60px auto 10px auto;
+}
+
+.footer .menus {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .footer .menus {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.footer .menus .loc {
+    width: 50%;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer .menus .desc {
+    padding-bottom: 20px;
+    margin: 50px 23px 10px 23px;
+}
+
+.footer .menus .loc h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: rgba(255, 0, 151, 1);
+}
+
+.footer .menus .loc h3,
+.footer .credits p {
+    margin: 10px 0;
+    color: #bbb;
+    font-weight: 100;
+}
+
+.footer .contact h3 {
+    margin: 30px 0;
+    color: #111;
+    font-weight: 00;
+}
+
+.footer .menus .loc p {
+    margin-left: 10px;
+}
+
+.footer .contact {
+    text-align: center;
+}
+
+.footer .contact h2 {
+    margin: 50px 20px;
+    font-size: 2em;
+    color: rgba(255, 0, 151, 1);
+}
+
+.footer .contact .contactIcons {
+    margin: 0px 10px;
+}
+
+#fbicon {
+    color: rgb(59, 89, 152)
+}
+
+#twicon {
+    color: rgb(29, 161, 242);
+}
+
+#gicon {
+    color: rgb(234, 67, 53);
+}
+
+#lkicon {
+    color: rgb(0, 119, 181);
+}
+
+#picon {
+    color: rgb(189, 8, 28);
+}
+
+#yticon {
+    color: rgb(255, 0, 0);
+}
+
+.footer .contact .iframemedia {
+    margin: 15% auto;
+    margin-bottom: 5%;
+    display: block;
+}
+
+.footer .credits .cirfooter {
+    height: 100px;
+    width: auto;
+}
+
+.footer .credits {
+    display: flex;
+}
+
+.footer .credits p {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: #999;
+}
+
+.footer .menus agm-map {
+    height: 150px;
+    position: relative;
+    top: 10px;
+}
+
+@media(max-width:800px) {
+    .footer .menus .loc h2 {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        color: rgba(255, 0, 151, 1);
+    }
+    .footer .menus .loc .desc,
+    .footer .menus .loc .mail {
+        margin-left: 1px;
+        margin-right: 0;
+    }
+    .footer .menus {
+        width: 100%;
+    }
+}
+
+@media(max-width:1073px) {
+    .footer .menus {
+        width: 100%;
+    }
+    .footer .menus .loc {
+        width: 50%;
+        border-bottom: none;
+    }
+    .footer .contact {
+        border-bottom: 1px solid #ddd;
+    }
+}

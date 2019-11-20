@@ -1,0 +1,50 @@
+<div class="compte">
+    <div id="icon" (click)="close()" *ngIf="show">
+        <div>
+            <div id="panelIcon">
+            </div>
+        </div>
+    </div>
+    <h1 mat-dialog-title i18n="@@cnx" class="comp-title">Connexion</h1>
+    <form class="conx-container" [formGroup]="signControl" autocomplete="off">
+        <!--div class="fields">
+            <mat-form-field>
+                <mat-select placeholder="Vous êtes ?" formControlName="typeFormControl" class="opt" i18n-placeholder="@@ua">
+                    <mat-option value="option" i18n="@@ta">Agence de voyage</mat-option>
+                    <mat-option value="option">Hotel</mat-option>
+                </mat-select>
+                <mat-icon matSuffix>domain</mat-icon>
+                <mat-error *ngIf="hasError('typeFormControl','required')" i18n="@@alrt1">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+            </mat-form-field>
+        </div-->
+        <div class="fields">
+            <mat-form-field>
+                <input matInput i18n-placeholder='@@email' placeholder="Email" formControlName="emailFormControl" [errorStateMatcher]="matcher">
+                <mat-error i18n="@@alrt2" *ngIf="hasError('emailFormControl','email') && !hasError('emailFormControl','required')">
+                    S'il vous plaît, mettez une adresse email valide
+                </mat-error>
+                <mat-error i18n="@@alrt1" *ngIf="hasError('emailFormControl','required')">
+                    Ce champ est <strong>requit</strong>
+                </mat-error>
+                <mat-icon matSuffix>mail</mat-icon>
+            </mat-form-field>
+
+        </div>
+        <div class="fields">
+            <mat-form-field>
+                <input matInput type="password" placeholder="Mot de passe" formControlName="passFormControl" i18n-placeholder="@@password">
+                <mat-error i18n="@@alrt1" *ngIf="hasError('passFormControl','required')">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+                <mat-icon matSuffix>lock</mat-icon>
+            </mat-form-field>
+
+        </div>
+        <mat-dialog-actions class="fields">
+            <button mat-flat-button color="warn" class="f1 btn" (click)="close()" i18n="@@ab">Annuler</button>
+            <button mat-flat-button color="primary" class="f2 btn" (click)="save()" i18n="@@cnx">Connexion</button>
+        </mat-dialog-actions>
+    </form>
+</div>

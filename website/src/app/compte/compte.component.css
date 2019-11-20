@@ -1,0 +1,106 @@
+.compte {
+    padding: 5% 0;
+}
+
+.compte .conx-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.compte .conx-container>* {
+    width: 100%;
+}
+
+.compte .conx-container .fields {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .compte .conx-container .fields {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.compte .f1,
+.compte .f2 {
+    margin: 10px 10px;
+    width: 40%;
+}
+
+.compte .f2 {
+    padding: 0 8px;
+}
+
+.compte .comp-title {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.compte .mat-form-field {
+    width: 70%;
+}
+
+@media(max-width:560px) {
+    .compte .f1,
+    .compte .f2 {
+        margin: 10px 20px;
+        width: 100%;
+    }
+    .compte .comp-title {
+        font-size: 1.5em;
+    }
+}
+
+@media(max-height:630px) {
+    .compte {
+        padding: 5% 0;
+    }
+    .compte .conx-container .fields {
+        margin: 5px 0;
+    }
+    .compte .f1,
+    .compte .f2 {
+        margin: 5px 10px;
+    }
+}
+
+#icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #eee;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    z-index: 100;
+}
+
+#icon>div {
+    margin: 35% 20%;
+}
+
+#panelIcon:before,
+#panelIcon:after {
+    display: block;
+    border-radius: 3px;
+    background-color: #fff;
+    content: '';
+    height: 3px;
+    margin: 2px 0;
+}
+
+#panelIcon:before {
+    transform: translateY(2.5px) rotate(135deg);
+}
+
+#panelIcon:after {
+    transform: translateY(-2.5px) rotate(-135deg);
+}

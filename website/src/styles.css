@@ -1,0 +1,127 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('@angular/material/prebuilt-themes/deeppurple-amber.css');
+@import url('./assets/animatecss/animate.css');
+@font-face {
+    font-family: 'montserrat';
+    src: url('./assets/fonts/montserrat-regular-webfont.woff2') format('woff2'), url('./assets/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.eot');
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url('../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.woff2') format('woff2'), url('../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.woff') format('woff'), url('../node_modules/material-design-icons/iconfont/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+.animated-delay-1 {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+}
+
+.animated-delay-2 {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+}
+
+.animated {
+    visibility: visible !important;
+}
+
+.hide-on-init {
+    visibility: hidden;
+}
+
+@media(max-width:800px) {
+    .hide-on-init {
+        visibility: visible;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.indafri {
+    text-transform: uppercase;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(206, 21, 206, 0.7);
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(206, 21, 206);
+}
+
+body {
+    margin: 0;
+    background-color: #eee;
+    scrollbar-width: 5px;
+    scrollbar-color: rgb(206, 21, 206);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.cdk-overlay-pane {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.cdk-overlay-pane::-webkit-scrollbar {
+    display: none;
+}
+
+.mat-dialog-container {
+    padding: 0 !important;
+}
+
+@media(max-width:600px) {
+    .cdk-overlay-pane {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+<div class="md-container" id="md-container">
+
+    <div class="md-form-container md-sign-in-container">
+        <app-compte class="md-signin"></app-compte>
+    </div>
+    <div class="md-form-container md-sign-up-container">
+        <app-inscription class="md-signup"></app-inscription>
+    </div>
+    <div class="md-overlay-container">
+        <div class="md-overlay">
+            <div class="md-overlay-panel md-overlay-left">
+                <h1 i18n="@@bnj">Bonjour !</h1>
+                <p i18n="@@modesc2" dir="auto">Entrer vos détails personnelles et commencez le voyage avec nous.</p>
+                <button class="md-switch-btn" id="signUp" (click)="switch2()" i18n="@@moi"> S'inscrire</button>
+            </div>
+            <div class="md-overlay-panel md-overlay-right">
+                <h1 i18n="@@bnj">Bonjour !</h1>
+                <p i18n="@@modesc1" dir="auto">Pour rester en contact avec nous, veuillez vous connecter avec vos informations personnelles.
+                </p>
+                <div class="wrapper">
+                    <button class="md-switch-btn" id="signIn" (click)="switch1(1)" i18n="@@navag"> Agence</button>
+                    <button class="md-switch-btn a" id="signIn" (click)="switch1(2)" i18n="@@navhot"> Hotel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

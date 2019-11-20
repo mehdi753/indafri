@@ -1,0 +1,33 @@
+<div [ngClass]="'navbar'" id="navbar">
+    <div class="logo" id="logo">
+        <img src="../../assets/images/logo.png" class="lg" routerLink="/" (click)="toggleCollapse()">
+    </div>
+    <div id="icon" (click)="toggleCollapse()">
+        <div>
+            <div id="menuIcon">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <ul [ngClass]="'btn'" id="btnul">
+            <li class="item"><a class="Link a" i18n="@@home" routerLink="/" (click)="toggleCollapse()">Accueil</a></li>
+            <li class="item"><a class="Link a" routerLink="/propos" i18n="@@about" (click)="toggleCollapse()">A Propos</a></li>
+            <li class="item"><a class="Link a" routerLink="/produit" i18n="@@prod" (click)="toggleCollapse()">Produits</a></li>
+            <li class="item"><a class="Link a" routerLink="/contact" (click)="toggleCollapse()" i18n="@@cont">Contact</a></li>
+            <li class="item">
+                <a class="Link b" i18n="@@signinup">conn / insc</a>
+                <ul class="subbtn hide-on-init" animateOnScroll animationName="animated fadeInRight">
+                    <li class="subitem sp" (click)="open(1)" (click)="toggleCollapse()"><a class="subLink" i18n="@@regf" (click)="toggleCollapse()">Inscription</a></li>
+                    <li class="subitem">
+                        <a class="subLink c" i18n="@@cnx">Connexion</a>
+                        <ul class="subbtn2 hide-on-init" animateOnScroll animationName="animated fadeInUp">
+                            <li class="subitem2 sp" (click)="open(2)" (click)="toggleCollapse()"><a class="subLink2" i18n="@@navag" (click)="toggleCollapse()">Agence</a></li>
+                            <li class="subitem2" (click)="open(3)" (click)="toggleCollapse()"> <a class="subLink2" (click)="toggleCollapse()" i18n="@@navhot">Hotel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

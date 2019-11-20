@@ -1,0 +1,80 @@
+<div class="inscription">
+    <div id="icon" (click)="close()" *ngIf="show">
+        <div>
+            <div id="panelIcon">
+            </div>
+        </div>
+    </div>
+    <h1 mat-dialog-title i18n="@@regf" class="insc-title">Inscription</h1>
+    <form class="insc-container" [formGroup]="regControl" autocomplete="off">
+        <div class="fields">
+            <mat-form-field class="f1">
+                <mat-select placeholder="Pays" formControlName="payFormControl" i18n-placeholder="@@cntry" class="aaa">
+                    <mat-option value="Tunisie" i18n="@@tn">Tunisie</mat-option>
+                    <mat-option value="Algerie" i18n="@@dz">Algerie</mat-option>
+                </mat-select>
+                <mat-icon matSuffix>public</mat-icon>
+                <mat-error i18n="@@alrt1" *ngIf="hasError('payFormControl','required')">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="f2">
+                <input matInput placeholder="Nom d'agence" maxlength="50" formControlName="agFormControl" i18n-placeholder="@@an">
+                <mat-icon matSuffix>domain</mat-icon>
+                <mat-error i18n="@@alrt1" *ngIf="hasError('agFormControl','required')">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="fields">
+            <mat-form-field class="f1">
+                <input matInput placeholder="Nom" maxlength="15" formControlName="nomFormControl" i18n-placeholder="@@name">
+                <mat-error i18n="@@alrt1" *ngIf="hasError('nomFormControl','required')">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+                <mat-error i18n="@@alrt3" *ngIf="hasError('nomFormControl','pattern')">
+                    Nom est <strong>invalide</strong>
+                </mat-error>
+                <mat-icon matSuffix>person</mat-icon>
+            </mat-form-field>
+            <mat-form-field class="f2">
+                <input matInput placeholder="Prénom" maxlength="20" formControlName="prFormControl" i18n-placeholder="@@fn">
+                <mat-icon matSuffix>person</mat-icon>
+                <mat-error i18n="@@alrt1" *ngIf="hasError('prFormControl','required')">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+                <mat-error i18n="@@alrt4" *ngIf="hasError('prFormControl','pattern')">
+                    Prenom est <strong>invalide</strong>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="fields">
+            <mat-form-field class="f1">
+                <input matInput placeholder="Email" i18n-placeholder='@@email' formControlName="emailFormControl" [errorStateMatcher]="matcher">
+                <mat-error i18n="@@alrt2" *ngIf="hasError('emailFormControl','email') && !hasError('emailFormControl','required')">
+                    S'il vous plaît, mettez une adresse email valide
+                </mat-error>
+                <mat-error i18n="@@alrt1" *ngIf="hasError('emailFormControl','required')">
+                    Ce Champs est <strong>requit</strong>
+                </mat-error>
+                <mat-icon matSuffix>mail</mat-icon>
+            </mat-form-field>
+            <mat-form-field class="f2">
+                <ngx-mat-intl-tel-input matInput [preferredCountries]="['tn', 'dz']" [enableAutoCountrySelect]="false" [enablePlaceholder]="true" [enableSearch]="true" formControlName="telFormControl" i18n-placeholder="@@tlf" placeholder="Télèphone"></ngx-mat-intl-tel-input>
+                <mat-icon matSuffix>phone</mat-icon>
+                <mat-error i18n="@@alrt1" *ngIf="hasError('telFormControl','required')">
+                    Ce champ est <strong>requis</strong>
+                </mat-error>
+                <mat-error i18n="@@alrt5" *ngIf="hasError('telFormControl','pattern')">
+                    Numero est <strong>invalide</strong>
+                </mat-error>
+            </mat-form-field>
+        </div>
+        <div class="recaptcha">
+            <re-captcha (resolved)="resolved($event)" siteKey="6Lfz1a8UAAAAACsyAkZtE8j6Lm0FB7-AMdhhn02d" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" required></re-captcha>
+        </div>
+        <mat-dialog-actions class="fields">
+            <button mat-flat-button color="warn" class="f1 btn" (click)="close()" i18n="@@ab">Annuler</button>
+            <button mat-flat-button color="primary" class="f2 btn" (click)="onSubmitSignup()" i18n="@@rg">Inscrivez-Vous</button>
+        </mat-dialog-actions>
+    </form>

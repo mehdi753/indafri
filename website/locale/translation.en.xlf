@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+    <!-- Navbar -->
+
+      <trans-unit id="home" datatype="html">
+        <source>
+            Acceuil
+        </source>
+        <target>
+            Home
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about" datatype="html">
+        <source>
+            A propos
+        </source>
+        <target>
+            About us
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prod" datatype="html">
+        <source>
+            Produit
+        </source>
+        <target>
+            Product
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="sourcefile">src/app/produit/produit.component.ts</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="reg" datatype="html">
+        <source>
+            Inscription
+        </source>
+        <target>
+            Sign up
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="account" datatype="html">
+        <source>
+            Compte
+        </source>
+        <target>
+            Account
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="signinup" datatype="html">
+        <source>
+            conn / insc
+        </source>
+        <target>
+            sign in / up
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navag" datatype="html">
+        <source>
+            Agence
+        </source>
+        <target>
+            Agency
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="sourcefile">src/app/modal/modal.component.html</context>
+        </context-group>
+      </trans-unit>
+    <!--Footer -->
+
+      <trans-unit id="adr" datatype="html">
+        <source>
+            Adresse
+        </source>
+        <target>
+            Adress
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tlf" datatype="html">
+        <source>
+            Télèphone
+        </source>
+        <target>
+            Phone
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="gr" datatype="html">
+        <source>
+            Allemagne
+        </source>
+        <target>
+            Germany
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fu" datatype="html">
+        <source>
+            Suivez-nous
+        </source>
+        <target>
+            Follow us
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+        </context-group>
+      </trans-unit>
+      
+    <!-- Home Page -->
+    
+      <trans-unit id="partners" datatype="html">
+        <source>Nos Partenaires</source>
+        <target>Our Partners</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="why" datatype="html">
+        <source>Pourquoi</source>
+        <target>Why </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="whymore" datatype="html">
+        <source>Plus de </source>
+        <target>More then </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="whydesc" datatype="html">
+        <source>professionnels de voyage font confiance à nous pour
+                    réserver les meilleurs hôtels et activités aux tarifs de gros les
+                    plus bas pour leurs clients. </source>
+        <target> professionnels de voyage font confiance à nous pour
+                    réserver les meilleurs hôtels et activités aux tarifs de gros les
+                    plus bas pour leurs clients. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tnh" datatype="html">
+        <source>
+            Hotels en tunisie
+        </source>
+        <target>
+            Hotels in tunisia
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wh" datatype="html">
+        <source>
+            Hotels dans le monde
+        </source>
+        <target>
+            Hotels in word
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ot" datatype="html">
+        <source>
+            Voyages organisés
+        </source>
+        <target>
+            Organized travels
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="list" datatype="html">
+        <source>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Inventaire mondial dynamique et étendu.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Équipe efficace, efficiente et professionnelle.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Vaste réseau de fournisseurs et de partenaires mondiaux soutenu par nos bureaux à destination.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Grâce à l’équipe organisée, vous recevrez une assistance clientèle sur mesure.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Assistance clientèle 24/24 et 7/7.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Agents multilingues.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+        </source>
+        <target>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Dynamic and extensive global inventory.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Effective, efficient and professional team.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Large network of suppliers and global partners supported by our offices at destination.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Thanks to the organized team, you will receive tailor-made customer support.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>24/7 customer support.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+          <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>Multilingual agents.<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/> 
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="foir" datatype="html">
+        <source>
+            Foires Commerciales
+        </source>
+        <target>
+            Trade shows
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="jsq" datatype="html">
+        <source>
+            jusqu'au
+        </source>
+        <target>
+            until
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tn" datatype="html">
+        <source>
+            Tunisie
+        </source>
+        <target>
+            Tunisia
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dz" datatype="html">
+        <source>
+            Algerie
+        </source>
+        <target>
+            Algeria
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/accueil/accueil.component.html</context>
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+
+    <!-- compte -->
+
+      <trans-unit id="cnx" datatype="html">
+        <source>
+            Connexion
+        </source>
+        <target>
+            Sign In
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ua" datatype="html">
+        <source>
+            Vous-êtes ?
+        </source>
+        <target>
+            You are ?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="password" datatype="html">
+        <source>
+            Mot de passe
+        </source>
+        <target>
+            Password
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ta" datatype="html">
+        <source>
+            Agence de voyage
+        </source>
+        <target>
+            Travel Agency
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alrt1" datatype="html">
+        <source>
+            Ce champ est 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            requis
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </source>
+        <target>
+            This field is 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            required
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alrt2" datatype="html">
+        <source>
+            S'il vous plaît, mettez une adresse email valide
+        </source>
+        <target>
+            Please enter a valid email adress
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab" datatype="html">
+        <source>
+            Annuler
+        </source>
+        <target>
+            Cancel
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/compte/compte.component.html</context>
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+
+    <!--inscritpion -->
+    
+      <trans-unit id="regf" datatype="html">
+        <source>
+            Inscription
+        </source>
+        <target>
+            Sign Up
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cntry" datatype="html">
+        <source>
+            Pays
+        </source>
+        <target>
+            Country
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="an" datatype="html">
+        <source>
+            Nom d'agence
+        </source>
+        <target>
+            Agency's name
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>
+            Nom
+        </source>
+        <target>
+            Name
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fn" datatype="html">
+        <source>
+            Prenom
+        </source>
+        <target>
+            First-Name
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alrt3" datatype="html">
+        <source>
+            Nom est 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            invalide
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </source>
+        <target>
+            Name is 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            invalid
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alrt4" datatype="html">
+        <source>
+            Prenom est 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            invalide
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </source>
+        <target>
+            First-Name is 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            invalid
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alrt5" datatype="html">
+        <source>
+            Numero est 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            invalide
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </source>
+        <target>
+            Phone Number is 
+            <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
+            invalid
+            <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rg" datatype="html">
+        <source>
+            Inscrivez-vous
+        </source>
+        <target>
+            Sign up
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/inscription/inscription.component.html</context>
+        </context-group>
+      </trans-unit>
+
+      <!-- Propos -->
+
+      <trans-unit id="abdesc" datatype="html">
+        <source>
+            Le premier réseau de l’industrie touristique inter agence de voyages, plateformes,
+            et hôteliers, basé sur le partage de produits pour une meilleure offre au client.
+        </source>
+        <target>
+            The first network of the tourism industry between travel agency, platforms, and hotels,
+            based on the sharing of products for a better offer to the customer.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abquote" datatype="html">
+        <source>
+            Nous ne sommes pas une plateforme mais un réseau, une union de professionnels de voyages.
+        </source>
+        <target>
+            We are not a platform but a network, a union of travel professionals.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abdesc1" datatype="html">
+        <source>
+            INDAFRI GmbH avec sa grande expérience sur les marchés locaux vous offre des solutions e-tourisme
+            adéquates à votre Business modèle.
+        </source>
+        <target>
+            INDAFRI GmbH with its extensive experience in local markets offers you e-tourism solutions for your
+            business model.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abdesc2" datatype="html">
+        <source>
+            INDAFRI GmbH vous connecte à un vaste réseau de fournisseurs et de partenaires,de plus elle
+            vous offre un soutien à travers une présence locale à destination.
+        </source>
+        <target>
+            INDAFRI GmbH connects you to an extensive network of suppliers and partners, plus offers you
+            support through a local presence at your destination.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abdesc3" datatype="html">
+        <source>
+            En tant qu'expert en systèmes de réservation en ligne, INDAFRI Gmbh s'efforce de rendre la vie
+            de ses clients et les vôtres plus facile et plus efficace grâce à sa maitrise de la technologie
+            e-tourisme.
+        </source>
+        <target>
+            As an expert in online reservation systems, INDAFRI GmbH strives to make life its customers and
+            yours easier and more efficient thanks to its mastery of technology e-tourism.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl1t" datatype="html">
+        <source>offrons la simplicité</source>
+        <target>Offering Simplicity</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl1d" datatype="html">
+        <source>
+          Dans un monde complexe, il est essentiel de construire et de chercher des solutions simples. Nos produits 
+          conviviaux sont développés pour vous faciliter la vie tout enaméliorant votre carrière professionnelle.
+        </source>
+        <target>
+          In a complex world, it is essential to build and look for simple solutions. Our products
+          friendly are developed to make your life easier while improving your professional career.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl2t" datatype="html">
+        <source>Répondons aux besoins de nos clients</source>
+        <target>Meet the needs of our customers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl2d" datatype="html">
+        <source>
+          Chez INDAFRI Gmbh, nous travaillons en synergie avec nos équipes internationales diversifiées et
+          expertes pour répondre à vos besoins.
+        </source>
+        <target>
+          At INDAFRI GmbH, we work in synergy with our diversified international teams and experts to meet your needs.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl3t" datatype="html">
+        <source>Offrons des prix concurrentiels à nos partenaires</source>
+        <target>Offering competitive prices to our partners</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl3d" datatype="html">
+        <source>
+          Prendre part d’INDAFRI Gmbhvous permet d’avoir des prix très compétitifs, et qui sont revus et
+          renégociés tout le temps, toutes les informations concernant les prix sont visibles en toute 
+          transparence pour vous.
+        </source>
+        <target>
+          Taking part of INDAFRI GmbH allows you to have very competitive prices, which are reviewed and
+          renegotiated all the time, all price information is visible in all transparency for you.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl4t" datatype="html">
+        <source>Valeur ajoutée</source>
+        <target>Added value</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abl4d" datatype="html">
+        <source>
+          Nous nous engageons de faire fructifier les affaires de nos clients, de les accompagner tout au long
+          de la collaboration, tous ‘Gagnant ,Gagnant’, car votre réussite c’est la notre.
+        </source>
+        <target>
+          We are committed to growing the business of our customers, to accompany them throughout of the collaboration,
+          all 'Winner, Winner', because your success is ours.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abinsct" datatype="html">
+        <source>Aimeriez-vous démarrer votre expérience de voyage dans le monde ?</source>
+        <target>Would you like to start your travel experience around the world?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abinscb" datatype="html">
+        <source>Inscription</source>
+        <target>Sign Up</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/propos/propos.component.html</context>
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      
+    <!-- produit -->
+
+      <trans-unit id="prdesc" datatype="html">
+        <source>
+            Le premier réseau de En tant que partenaire passionné, INDAFRI GmbH s'efforce de comprendre vos
+            besoins et de fournir des solutions efficaces et des services adaptés à votre entreprise.
+        </source>
+        <target>
+            The first network As a passionate partner, INDAFRI GmbH strives to understand your
+            needs and provide effective solutions and services tailored to your business.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prquote" datatype="html">
+        <source>
+            Choisissez ce qui convient le mieux à votre façon de faire.
+        </source>
+        <target>
+            Choose what is best for your way of doing things.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prodl1t" datatype="html">
+        <source>Site internet</source>
+        <target>Website</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prodl1d" datatype="html">
+        <source>
+          Un site clé en main qui vous permet :
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              de gérer vos réservations
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              de suivre vos clients
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              de suivre vos vendeurs et leurs performance
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              d’avoir un tableau de bord de votre trafic dans votre main
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              d’ajouter vos propres produits hôtel, vol, excursion,voyage organisées
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              d’avoir un contenu riche et amélioré selon votre demande
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              d’avoir des promotions exclusives partenaires INDAFRI sur des multiples destinations,
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              d’avoir des produits diversifiés pour combler les attentes de vos clients
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              d’avoir des confirmation Immédiate avec délais de paiement et des conditions d’annulation
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          Avec ce site :
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              vous êtes ouvert au monde
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              vous aurez plus de clients
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              vous préparez vos produits propres à vous,choisissez comment les distribuer soit sur votre
+              site uniquement ou les lancer sur notre réseau IndafriNET.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Vous êtes le maitre à bord.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </source>
+        <target>
+          A website that allows you:
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Manage your reservations.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To follow your customers.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To follow your salespeople and their performance.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To have a dashboard of your traffic in your hand.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To add your own products hotel, flight, excursion, organized trip.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To have rich and improved content according to your request.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To have exclusive promotions INDAFRI partners on multiple destinations.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To have diversified products to meet the expectations of your customers.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              To have Immediate confirmation with payment deadlines and cancellation conditions.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+          With this Website
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              You are open to the world
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              You will have more customers
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              You prepare your own products, choose how to distribute them on your
+              site only or launch them on our IndafriNET network.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              You are the master on board.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prodl2d" datatype="html">
+        <source>
+          réseau des professionnels de tourisme
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Vous pouvez introduire vos produits et choisir de les diffuser en exclusivité dans votre canal
+              de vente ou sur le réseau mondial de voyageurs
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Gestion des paiements et des factures
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Multitudes points de paiement (cash Point) sont à votre disposition, le client ne se déplacera
+              plus pour vous payer.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Gestion de cours de devises manuelle
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Commission modulable par produit
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </source>
+        <target>
+          network of tourism professionals
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              You can introduce your products and choose to distribute them exclusively in your channel
+              of sales or on the global network of travelers
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Payment and invoice management
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Multitude of payment points (cash point) are at your disposal, the customer will not move
+              more to pay you.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Manual currency exchange management
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Product Modular Commission
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prodl3t" datatype="html">
+        <source>Gérer votre Image sur les réseaux sociaux</source>
+        <target>Manage your Image on social networks</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="prodl3d" datatype="html">
+        <source>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Une gestion de votre marque sur les réseaux sociaux.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Compagnie de Smsing et Emailing.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Centre d’appel.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Formation en continu sur les techniques de ventes.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </source>
+        <target>
+          <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Managing your brand on social networks.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Smsing Company and Emailing.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Call Center.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+            <x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+              Continuous training on sales techniques.
+            <x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+          <x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/produit/produit.component.html</context>
+        </context-group>
+      </trans-unit>
+
+    <!-- Modal -->
+
+      <trans-unit id="bnj" datatype="html">
+        <source>
+            Bonjour
+        </source>
+        <target>
+            Welcome
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modal/modal.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="modesc1" datatype="html">
+        <source>
+            Pour rester en contact avec nous, veuillez vous connecter avec vos informations personnelles.
+        </source>
+        <target>
+            To stay in touch with us, please login with your personal information.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modal/modal.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="modesc2" datatype="html">
+        <source>
+            Entrer vos détails personnelles et commencez le voyage avec nous.
+        </source>
+        <target>
+            Enter your personal details and start the trip with us
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modal/modal.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="moc" datatype="html">
+        <source>
+            Se connecter
+        </source>
+        <target>
+            Sign In
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modal/modal.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="moi" datatype="html">
+        <source>
+            s'inscrire
+        </source>
+        <target>
+            Sign Up
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modal/modal.component.html</context>
+        </context-group>
+      </trans-unit>
+
+    <!-- Contact -->
+
+      <trans-unit id="contitle" datatype="html">
+        <source>
+            Prenez contact
+        </source>
+        <target>
+            Get in touch
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="condesc" datatype="html">
+        <source>
+            Voulez-vous prendre contact? Nous aimerions avoir de vos nouvelles, voici comment vous pouvez nous joindre..
+        </source>
+        <target>
+            want to get in touch? We would love to hear from you, here is how you can reach us ..
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="git" datatype="html">
+        <source>
+          Contactez-Nous
+        </source>
+        <target>
+          Contact Us
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="snd" datatype="html">
+        <source>
+          Envoyer
+        </source>
+        <target>
+          Send
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="alrt6" datatype="html">
+        <source>
+          Le minimum est de 10 mots
+        </source>
+        <target>
+          10 words at least
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

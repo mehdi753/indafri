@@ -1,0 +1,371 @@
+@import url('../../assets/animatecss/animate.css');
+.accueil .banner .img {
+    background-image: url('../../assets/images/slider2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
+
+.accueil .banner .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.accueil .banner .img h1 {
+    margin-top: 2%;
+    color: #fff;
+    font: 3.73rem 'Open Sans Bold', sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+}
+
+.accueil .banner .desc {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.accueil .banner .circleImg {
+    height: 600px;
+    width: auto;
+    float: right;
+    position: relative;
+    top: 400px;
+}
+
+.accueil .content h1 {
+    margin: 2% 4% 2% 4%;
+    font: 3.73rem 'Open Sans Bold', sans-serif;
+    font-weight: 600;
+}
+
+.accueil .content {
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: 150px
+}
+
+.accueil .content .prop {
+    overflow: hidden;
+}
+
+.accueil .content .prop .post {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 0;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+@supports (-ms-flow-from: thingy) {
+    /* Edge only */
+    .accueil .content .prop .post {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.accueil .content .prop .rev {
+    flex-wrap: wrap-reverse;
+}
+
+.accueil .content .prop .post ul {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 400px;
+}
+
+.accueil .content .prop .post .picwrk {
+    width: 600px;
+    height: 300px;
+    z-index: -2;
+}
+
+.accueil .content .prop .post .picwrd {
+    width: 600px;
+    height: 500px;
+    z-index: -2;
+}
+
+.accueil .content .prop h3 {
+    text-align: justify;
+    line-height: 2em;
+    color: #777;
+    width: 400px;
+    margin-top: 150px;
+}
+
+.accueil .content .prop li {
+    text-align: justify;
+    line-height: 2em;
+    color: #777;
+}
+
+.accueil .content .partenaires {
+    margin: 100px 0 0 0;
+    width: 100%;
+}
+
+.accueil .content .partenaires .wshow {
+    width: 80%;
+    margin: 150px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+@supports (-ms-flow-from: thingy) {
+    .accueil .content .partenaires .wshow {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.accueil .content .partenaires .wshow .part {
+    height: 300px;
+    width: 270px;
+    position: relative;
+    transition: .3s;
+    user-select: none;
+    margin: 0 1px;
+}
+
+.accueil .content .partenaires .wshow .idz {
+    width: 250px;
+    height: auto;
+    padding-top: 15%;
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+
+.accueil .content .partenaires .wshow .ig {
+    width: 200px;
+    height: auto;
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.accueil .content .partenaires .wshow .part .desc {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    visibility: hidden;
+}
+
+.accueil .content .partenaires .wshow .part:hover,
+.accueil .content .partenaires .wshow .part:active {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.accueil .content .partenaires .wshow .part:hover .desc,
+.accueil .content .partenaires .wshow .part:hover .desc .decr p,
+.accueil .content .partenaires .wshow .part:hover .desc .decr h2,
+.accueil .content .partenaires .wshow .part:hover .desc .flag,
+.accueil .content .partenaires .wshow .part:active .desc,
+.accueil .content .partenaires .wshow .part:active .desc .decr p,
+.accueil .content .partenaires .wshow .part:active .desc .decr h2,
+.accueil .content .partenaires .wshow .part:active .desc .flag {
+    visibility: visible;
+}
+
+.accueil .content .partenaires .wshow .part:hover .desc,
+.accueil .content .partenaires .wshow .part:active .desc {
+    background-color: rgba(8, 193, 218, 0.7);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.accueil .content .partenaires .wshow .part .desc .decr {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transition: 0.3s;
+}
+
+.accueil .content .partenaires .wshow .part .desc .decr h2 {
+    margin: 10px 0 10px 10px;
+    visibility: hidden
+}
+
+.accueil .content .partenaires .wshow .part .desc .decr p {
+    margin: 0 0 0 20px;
+    visibility: hidden;
+}
+
+.accueil .content .partenaires .wshow .part .desc .flag {
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    visibility: hidden;
+    margin: 10px 10px;
+}
+
+#locmark {
+    display: inline-block;
+}
+
+.accueil .content .partenaires .circle-2 {
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: -250px;
+    left: 0;
+    z-index: -1;
+}
+
+.accueil .content .fc {
+    position: relative;
+    top: -150px;
+}
+
+.accueil .content .fc .cfoires {
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@supports (-ms-flow-from: thingy) {
+    .accueil .content .fc .cfoires {
+        justify-content: space-around;
+        /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+}
+
+.accueil .content .fc .cfoires .foire {
+    margin: 10px 10px;
+    width: 350px;
+    height: 130px;
+    background-color: #fff;
+    border: .5s solid #bbb;
+    display: flex;
+}
+
+.accueil .content .fc .cfoires .foire .logo {
+    width: 30%;
+}
+
+.accueil .content .fc .cfoires .foire .logo .flogo {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.accueil .content .fc .cfoires .foire .desc {
+    width: 70%;
+}
+
+.accueil .content .fc .cfoires .foire .desc .loc {
+    margin-left: 10px;
+    color: #bbb;
+}
+
+.accueil .content .fc .cfoires .foire .desc h3,
+.accueil .content .fc .cfoires .foire .desc p {
+    margin: 15px 0;
+}
+
+.accueil .content .fc .cfoires .foire .desc h3 {
+    font-size: 1.7rem;
+}
+
+.accueil .content .fc .cfoires .foire .desc p {
+    font-size: .8rem;
+}
+
+.accueil .content .partenaires .wshow .part {
+    z-index: 1;
+}
+
+@media(max-width:1150px) {
+    .accueil .content .prop h1 {
+        font-size: 3rem;
+    }
+    .accueil .content .prop .post ul {
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+
+@media(max-width:970px) {
+    .accueil .banner .circleImg {
+        display: none;
+    }
+    .accueil .content {
+        padding-top: 50px
+    }
+}
+
+@media(max-width:892px) {
+    .accueil .content .partenaires .wshow .part {
+        margin-top: 10px;
+    }
+    .accueil .content .partenaires .circle-2 {
+        width: 300px;
+        height: auto;
+        top: -500px;
+    }
+}
+
+@media(max-width:700px) {
+    .accueil .banner .img h1 {
+        font-size: 1.8rem;
+    }
+    .accueil .content h1,
+    .accueil .content .prop h1 {
+        font-size: 1.5rem;
+    }
+    .accueil .content .prop .post {
+        margin-top: 20px;
+    }
+    .accueil .content .prop .post .picwrd,
+    .accueil .content .prop .post .picwrk {
+        width: 100%;
+        height: auto;
+    }
+    .accueil .content .prop h3 {
+        margin-top: 30px;
+        width: 90%;
+    }
+    .accueil .content .prop .post ul {
+        margin-top: 30px;
+        width: 90%;
+    }
+    .accueil .content .fc .cfoires {
+        margin: 70px 0 0 0;
+    }
+    .accueil .content {
+        padding-top: 50px
+    }
+}
+
+.particler {
+    position: absolute;
+    width: 100%;
+    height: 240%;
+    z-index: 1;
+}
+
+.accueil .starIcon {
+    font-size: 50px;
+    color: #fff;
+    padding-right: 55px;
+}

@@ -1,0 +1,123 @@
+<div [ngClass]="'accueil'" dir="auto">
+    <div class="hide-on-init banner" animateOnScroll animationName="animated fadeIn">
+        <div class="img">
+            <div class="layer"></div>
+            <div class="desc">
+                <mat-icon matSuffix class="starIcon">star_border</mat-icon>
+                <mat-icon matSuffix class="starIcon">star_border</mat-icon>
+                <mat-icon matSuffix class="starIcon">star_border</mat-icon>
+                <mat-icon matSuffix class="starIcon">star_border</mat-icon>
+                <mat-icon matSuffix class="starIcon">star_border</mat-icon>
+
+                <h1>Find Your Perfect Hotel</h1>
+            </div>
+            <img src="../../assets/images/circle-1.png" class="circleImg" />
+        </div>
+    </div>
+
+    <div [ngClass]="'content'">
+        <canvas id="particler-instance" class="particler"></canvas>
+        <div [ngClass]="'prop'">
+            <h1 class="hide-on-init" animateOnScroll animationName="animated fadeInDown" dir="auto"><span i18n="@@why">Pourquoi
+                </span><span class="indafri">indafri</span>.com</h1>
+            <div [ngClass]="'post'" dir="auto">
+                <img src="../../assets/images/map.png" [ngClass]="'picwrd'" class="hide-on-init" animateOnScroll animationName="animated fadeInLeft">
+                <h3 class="hide-on-init" animateOnScroll animationName="animated fadeInRight">
+                    <span i18n="@@whymore">Plus de </span><span [countUp]="myNb" snInViewport (inViewportChange)="onInViewportChange($event)">0</span>
+                    <span i18n="@@whydesc"> professionnels de voyage font confiance à nous pour
+                        réserver les meilleurs hôtels et activités aux tarifs de gros les
+                        plus bas pour leurs clients.</span>
+                </h3>
+            </div>
+            <div [ngClass]="'post rev'" dir="auto">
+                <ul i18n="@@list" class="hide-on-init" animateOnScroll animationName="animated fadeInLeft">
+                    <li>Inventaire mondial dynamique et étendu.</li>
+                    <li>Équipe efficace, efficiente et professionnelle.</li>
+                    <li>Vaste réseau de fournisseurs et de partenaires mondiaux soutenu par nos bureaux à destination.
+                    </li>
+                    <li>Grâce à l’équipe organisée, vous recevrez une assistance clientèle sur mesure.</li>
+                    <li>Assistance clientèle 24/24 et 7/7.</li>
+                    <li>Agents multilingues.</li>
+                </ul>
+                <img src="../../assets/images/work2.jpg" [ngClass]="'picwrk'" class="hide-on-init" animateOnScroll animationName="animated fadeInRight">
+            </div>
+        </div>
+        <div [ngClass]="'partenaires'">
+            <h1 i18n="@@partners" class="hide-on-init" animateOnScroll animationName="animated fadeInDown" dir="auto">Nos Partenaires
+            </h1>
+            <div [ngClass]="'wshow'">
+                <div id="2" [ngClass]="'part idzifly'" (click)="goTo($event)" class="hide-on-init" animateOnScroll animationName="animated fadeInRight">
+                    <img src="../../assets/images/idzifly2.png" [ngClass]="'idz'">
+                    <div [ngClass]="'desc'">
+                        <img src="../../assets/images/Eflag.png" [ngClass]="'flag'">
+                        <div [ngClass]="'decr'">
+                            <h2>IDZIFLY.com</h2>
+                            <p i18n="@@tnh">Hotels en tunisie</p>
+                            <p i18n="@@wh">Hotels dans le monde</p>
+                            <p i18n="@@ot">Voyages organisés</p>
+                            <h2>
+                                <fa-icon [icon]="['fas','map-marker-alt']" size="1x" [ngClass]="'locicon'" id="locmark">
+                                </fa-icon>
+                                <span i18n="@@dz">Algerie</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="3" [ngClass]="'part igo'" (click)="goTo($event)" class="hide-on-init" animateOnScroll animationName="animated fadeInLeft">
+                    <img src="../../assets/images/igo2.png" [ngClass]="'ig'">
+                    <div [ngClass]="'desc'">
+                        <img src="../../assets/images/Gflag.png" [ngClass]="'flag'">
+                        <div [ngClass]="'decr'">
+                            <h2>Igo.tn</h2>
+                            <p i18n="@@tnh">Hotels en tunisie</p>
+                            <p i18n="@@wh">Hotels dans le monde</p>
+                            <p i18n="@@ot">Voyages organisés</p>
+                            <h2>
+                                <fa-icon [icon]="['fas','map-marker-alt']" size="1x" [ngClass]="'locicon'" id="locmark">
+                                </fa-icon>
+                                <span i18n="@@tn">Tunisie</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="../../assets/images/circle-2.png" [ngClass]="'circle-2'">
+        </div>
+        <div [ngClass]="'fc'">
+            <h1 i18n="@@foir" class="hide-on-init" animateOnScroll animationName="animated fadeInDown" dir="auto">Foires Commerciales
+            </h1>
+            <div [ngClass]="'cfoires'">
+                <div [ngClass]="'foire'" class="hide-on-init" animateOnScroll animationName="animated fadeInRight">
+                    <div [ngClass]="'logo'">
+                        <img src="../../assets/images/fitur.jpg" [ngClass]="'flogo'">
+                    </div>
+                    <div [ngClass]="'desc'">
+                        <h3>Fitur 2019</h3>
+                        <p [ngClass]="'loc'">Madrid</p>
+                        <p> 23.01.2019 <span i18n="@@jsq" dir="auto"> jusqu'au </span> 27.01.2019 </p>
+                    </div>
+                </div>
+                <div [ngClass]="'foire'" class="hide-on-init" animateOnScroll animationName="animated fadeInDown">
+                    <div [ngClass]="'logo'">
+                        <img src="../../assets/images/Emitt.jpg" [ngClass]="'flogo'">
+                    </div>
+                    <div [ngClass]="'desc'">
+                        <h3>Emmitt</h3>
+                        <p [ngClass]="'loc'">Istanbul</p>
+                        <p> 31.01.2019 <span i18n="@@jsq" dir="auto"> jusqu'au </span> 03.02.2019 </p>
+                    </div>
+                </div>
+                <div [ngClass]="'foire'" class="hide-on-init" animateOnScroll animationName="animated fadeInLeft">
+                    <div [ngClass]="'logo'">
+                        <img src="../../assets/images/ITB_Berlin.jpg" [ngClass]="'flogo'">
+                    </div>
+                    <div [ngClass]="'desc'">
+                        <h3>ITB_Berlin</h3>
+                        <p [ngClass]="'loc'">Berlin</p>
+                        <p> 06.03.2019 <span i18n="@@jsq" dir="auto"> jusqu'au </span> 10.03.2019 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
