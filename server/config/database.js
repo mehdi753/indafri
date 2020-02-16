@@ -1,4 +1,4 @@
 module.exports = {
-    database: 'mongodb://localhost:27017/indafri',
+    database: '',
     secret: 'rondom-token-secret'
 }
