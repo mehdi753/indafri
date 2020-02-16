@@ -69,7 +69,7 @@ import { DataService } from './services/data.service'
     RecaptchaModule,
     RecaptchaFormsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDo3LAX2UOpWYcG5FXCJrFiSLLXaJpFaus'
+      apiKey: ''
     }),
     AnimateOnScrollModule.forRoot(),
     HttpClientModule,
